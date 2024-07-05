@@ -2,6 +2,8 @@
 
 *Telescope Git Branch* is a [Telescope](https://github.com/nvim-telescope/telescope.nvim) extension that searches a Git branch for files which are different from the default branch, previews a diff of the changes and allows you to open files that are different from the default branch.
 
+<img src="https://raw.githubusercontent.com/mrloop/files/main/telescope-git-branch.png" alt="screenshot" width="800"/>
+
 The [telescope-git-branch.nvim](https://github.com/mrloop/telescope-git-branch.nvim) extension is great for working with feature branches, where you want to easily see the differences between the default branch and the feature branch. It lets you search for differences across multiple commits on the same branch.
 
 ## Installation 
