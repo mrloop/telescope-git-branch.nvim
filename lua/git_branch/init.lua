@@ -41,7 +41,9 @@ local get_branch_file_diff = function(opts)
 end
 
 git_branch.files = function(opts)
-  opts = opts or {}
+  opts = opts or {
+    cwd = git({ "rev-parse", "--show-toplevel" }),
+  }
 
   -- show untracked files as well
   git({ "add", "--intent-to-add", "." }, opts.cwd)
